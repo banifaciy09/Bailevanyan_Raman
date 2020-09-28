@@ -162,7 +162,7 @@
                         <option value="city5">Рязань</option>
                         <option value="city6">Магадан</option>
                     </select>
-                    <select name="list2" size="7" multiple>
+                    <select name="list2" size="8" multiple>
                         <optgroup label="Города РБ">
                             <option value="city1">Брест</option>
                             <option value="city2">Витебск</option>
@@ -180,8 +180,53 @@
         </td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td valign="top">
+            <h3>Загрузка файлов на сервер:</h3>
+            <form name="review" method="post" action="http://fe.it-academy.by/TestForm.php" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Upload</legend>
+                    <label>
+                        Файл:
+                    </label>
+                    <br>
+                    <input type="file" name="file_upload">
+                    <br>
+                    <label>
+                        Срок хранения (года):
+                    </label>
+                    <br>
+                    <input type="text" name="year" required pattern="[0-9]{1,}">
+                    <input type="submit" value="загрузить">
+                    <br>
+                    <i>Метод POST</i>
+                    <br>
+                    <i>в теге form используйте атрибут</i>
+                    <br>
+                    <i>enctype="multipart/form-data" для отправки</i>
+                    <br>
+                    <i>файла на сервер</i>
+                </fieldset>
+            </form>
+        </td>
+        <td valign="top">
+            <h3>Валидация данных HTML5:</h3>
+            <form name="review" method="post" action="http://fe.it-academy.by/TestForm.php">
+                <fieldset>
+                    <legend>
+                        Строка поиска
+                    </legend>
+                    <input type="text" name="string_search" required pattern="[А-Яа-яЁё]{1,}" placeholder="Только русские буквы">
+                    <br>
+                    <i>Телефонный номер в формате</i>
+                    <br>
+                    <i>+XXX-XX-XXXXXXX, где X - любое число</i>
+                    <br>
+                    <input type="text" name="phone_number" required pattern="+[0-9]{3}-[0-9]{2}-[0-9]{7}">
+                    <br>
+                    <input type="submit" value="Проверить">
+                </fieldset>
+            </form>
+        </td>
     </tr>
 </table>
 </body>
