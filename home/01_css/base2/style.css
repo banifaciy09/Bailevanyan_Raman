@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serifserif;
+    font-size: 18px;
+    color: dimgrey;
+    max-width: 830px;
+    min-width: 830px;
+    margin: auto;
+}
+body header{
+    max-width: 430px;
+    margin-left: auto;
+    text-align: right;
+    color: black;
+}
+body header h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+body h3{
+    font-family: Bad Script Regular;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    text-indent: 10mm;
+}
+body article{
+    font-family: Bad Script Regular;
+    text-align: justify;
+}
+body article p{
+    text-indent: 10mm;
+}
+body footer{
+    color: black;
+    font-weight: bold;
+}
