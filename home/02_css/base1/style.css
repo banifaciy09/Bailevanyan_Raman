@@ -1,0 +1,47 @@
+div{
+    background-image: url("cards.png");
+}
+.card_3{
+    width: 145px;
+    height: 195px;
+    /* border: solid red 1px; */
+    background-position: -141px -195px;
+    float: left;
+}
+.card_5{
+    width: 145px;
+    height: 195px;
+    /* border: solid red 1px; */
+    background-position: -427px -593px;
+    float: left;
+}
+.card_9{
+    width: 145px;
+    height: 195px;
+    /* border: solid red 1px; */
+    background-position: -285px -1390px;
+    float: left;
+}
+.card_3_overlay{
+    width: 145px;
+    height: 195px;
+    /* border: solid red 1px; */
+    background-position: -141px -195px;
+    clear: both;
+}
+.card_5_overlay{
+    width: 145px;
+    height: 195px;
+    /* border: solid red 1px; */
+    background-position: -427px -593px;
+    margin-left: 100px;
+    margin-top: -150px;
+}
+.card_9_overlay{
+    width: 145px;
+    height: 195px;
+    /* border: solid red 1px; */
+    background-position: -285px -1390px;
+    margin-left: 200px;
+    margin-top: -150px;
+}
