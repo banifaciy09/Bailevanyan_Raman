@@ -1,0 +1,18 @@
+li ul{
+    list-style: lower-roman;
+    font-weight: normal;
+}
+ul{
+    list-style: upper-roman;
+    width: 350px;
+    font-weight: bold;
+}
+.footer{
+    width: 400px;
+    background-color: black;
+    color: green;
+    max-height: 4vmax;
+    overflow: auto;
+    font-family: "Courier New";
+
+}
