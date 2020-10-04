@@ -1,0 +1,76 @@
+*{
+
+}
+.wrap ul li{
+    padding: 10px;
+    border: 2px solid dimgray;
+    width: 100px;
+}
+.wrap ul > li{
+    margin-left: -5px;
+}
+.wrap ul > li:hover{
+    background-color: lightslategray;
+}
+.wrap ul ul > li:hover{
+    background-color: lightslategray;
+}
+.wrap ul li, .menu ul{
+    display: inline-block;
+    background-color: gray;
+
+}
+.wrap ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+}
+.wrap ul ul{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: -7px;
+
+
+}
+.wrap ul a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.wrap ul ul a{
+    color: black;
+    text-decoration: none;
+}
+.wrap li:hover ul{
+    display: block;
+
+}
+
+.wrap li:hover li{
+    display: block;
+
+}
+
+@media screen and (max-width: 750px) {
+    .wrap ul li{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrap li:hover ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .wrap li:hover li{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .wrap ul ul{
+        margin: -12px 0 0 115px;
+    }
+}

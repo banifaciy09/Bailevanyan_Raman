@@ -1,0 +1,59 @@
+.wrap{
+	background: 
+		url('img/l-t.png') no-repeat top left,
+		url('img/r-t.png') no-repeat top right,
+		url('img/l-b.png') no-repeat bottom left,
+		url('img/r-b.png') no-repeat bottom right,
+		url('img/l.png') repeat-y left,  
+		url('img/t.png') repeat-x top, 
+		url('img/r.png') repeat-y right, 
+		url('img/b.png') repeat-x bottom sandybrown;
+	width: 80%; 
+	padding: 3.5em
+}
+
+.wrap2{
+	background-color: sandybrown;
+	background-image: 
+		url('img/r-b.png'), 
+		url('img/l-b.png'), 
+		url('img/l-t.png'), 
+		url('img/r-t.png'), 
+		url('img/l.png'), 
+		url('img/r.png'), 
+		url('img/t.png'), 
+		url('img/b.png');
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y, repeat-y, repeat-x, repeat-x;
+	background-position: bottom right, bottom left, top left, top right, left, right, top, bottom;
+	width: 80%;
+	padding: 3.5em;
+}
+
+.wrap3{
+	border-style: solid; 
+	border-width: 3em;  
+	width: 80%;
+	border-image-source: url('img/ramka.png');
+	border-image-slice: 100;
+	border-image-repeat: stretch; 
+	border-image-width: 2;
+}
+
+.left{
+    background-color: darkgray;
+    float: left;
+    width: 15em;
+}
+.right div{
+    background-color: grey;
+    overflow: hidden;
+    margin-bottom: 0.2em;
+}
+.footer{
+    background-color: darkgray;
+    clear: both;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
