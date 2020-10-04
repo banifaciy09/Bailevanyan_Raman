@@ -28,10 +28,10 @@
     flex-direction: column;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.7s ease-in-out;
+    transition: margin 0.5s ease-in-out, opacity 0.7s ease-in-out;
     position: absolute;
     background-color: gray;
-    margin-top: 10px;
+    margin-top: -30px;
     margin-left: -7px;
 
 
@@ -48,6 +48,7 @@
 .wrap ul li:hover ul{
     opacity: 1;
     visibility: visible;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 750px) {
@@ -67,6 +68,10 @@
     }
 
     .wrap ul ul{
+        margin: -12px 0 0 55px;
+    }
+
+    .wrap ul li:hover ul{
         margin: -12px 0 0 115px;
     }
 }
