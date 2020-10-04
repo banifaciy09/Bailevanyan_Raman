@@ -1,6 +1,5 @@
 .wrap{
-    background-color: lightgray;
-    width: 1000px;
+    background-color: sandybrown;
 }
 .left{
     background-color: darkgray;
@@ -9,9 +8,14 @@
 }
 .right div{
     background-color: grey;
-    margin-bottom: 2em;
+    overflow: hidden;
+    margin-bottom: 0.2em;
 }
 .footer{
     background-color: darkgray;
     clear: both;
+}
+img{
+    width: 200px;
+    height: 200px;
 }
